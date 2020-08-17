@@ -1,9 +1,9 @@
+
 body {
     margin: 0;
     font-size: 15px;
     line-height: 1.6;
-    font-family: mr_LowRiderBBG, regular;
-    src: local(mr_LowRiderBBG), url("../fonts/17309.otf");
+    font-family: 'Jost', sans-serif;
     color: black;
     background-color: #edeef0;
     
@@ -20,6 +20,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 
+
 /* Container */
 .container {
     width: 1920px;
@@ -29,6 +30,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Menu */
 .menu {
+    max-width: 1920px;
     width: 100%;
     height: 5%;
     background: black;
@@ -136,8 +138,15 @@ line-height: 1.3em;
 }
 .resume {
     width: 100%;
-    height: 63%;
+    height: 100%;
     background: #80dcff;
     position: relative;
     top: 80%;
 }
+
+.about {
+    position: absolute;
+    font-size: 70px;
+    top: 10%;
+    left: 30%;
+}   
