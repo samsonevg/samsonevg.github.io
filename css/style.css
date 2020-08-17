@@ -3,7 +3,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     font-family: mr_LowRiderBBG, regular;
-    src: local(mr_LowRiderBBG), url(../fonts/17309.otf);
+    src: local(mr_LowRiderBBG), url("../fonts/17309.otf");
     color: black;
     background-color: #edeef0;
     
@@ -22,7 +22,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Container */
 .container {
-    width: 100%;
+    width: 1920px;
     height: 1080px;
     margin: 0 auto;
 }
